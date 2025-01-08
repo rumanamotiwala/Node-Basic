@@ -19,20 +19,22 @@ app.get('/home/page', (req, res) => {
 
 const profiles = [
     {
-        id:1,
+     id:1,
     name: "Rumana",
-    age: 17,
+    link:"https://github.com/rumanamotiwala",
     desc: "I am in 12th std",
 },
 {
-    name: "Tehseen",
-    age: 21,
-    desc: "I have completed with graduation",
+    id:2,
+    name: "Basheer",
+   link:"https://github.com/Basheer107",
+    desc: "I am in first year",
 },
 {
-    name: "Moin",
-    age: 12,
-    desc: "I am in 7th std",
+    id:3,
+    name: "Saad",
+    link:"https://github.com/shk-Sam",
+    desc: "I am learning Mern Stack",
 },
 ]
 
